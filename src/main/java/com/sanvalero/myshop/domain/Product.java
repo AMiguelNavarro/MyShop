@@ -29,6 +29,9 @@ public class Product {
     private String descripcion;
 
     @Column
+    private String category;
+
+    @Column
     private float precio;
 
     @Column(name = "creation_date") // Cambia el nombre de la columna en la base de datos al que pongamos en name
